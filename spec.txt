@@ -1,0 +1,35 @@
+Fala Ricardo Battaglin Neto  !!!
+
+ 
+
+Nós da Driva te selecionamos para próxima etapa do nosso programa de estágio, a etapa de desafios. Abaixo eu vou te dar 2 opções de desafios que podem ser realizados, 
+basta escolher um deles, desenvolve-lo e responder esse e-mail com um link para um repositório git publico(GitHub, GitLab ou outro de sua escolha) com a solução do desafio escolhido. 
+Você tem uma semana para entregar o desafio escolhido 😉.
+
+ 
+
+1ª Opção: Faça um pequeno código em Python utilizando a biblioteca Pandas que atenda os seguintes requisitos:
+
+Leia o arquivo "DadosEmpresa.csv" (você pode baixa-lo manualmente nesse link);
+Print no terminal as colunas desse arquivo;
+Print no terminal as primeiras linhas desse arquivo;
+Print no terminal o total de empresas nesse arquivo que tem a coluna "opcao_pelo_simples" com o valor "SIM";
+Print no terminal a soma do "capital_social" de todas as empresas;
+Print no terminal todas as empresas que tem "capital_social" maior que 10.000 e menor que 20.000;
+EXTRA: Leia o arquivo "DadosEndereco.csv" (você pode baixa-lo manualmente nesse link);
+EXTRA: Faça um merge entre os dois arquivos pela coluna "cnpj" e salve um arquivo CSV com todas as empresas que são de "CURITIBA";
+Lembrando que todas as informações necessárias estão nos CSV's passados, a única biblioteca necessária é a pandas e os pontos com EXTRA na frente não precisam ser feitos se não quiser.
+
+ 
+
+2ª Opção: Faça uma API Rest utilizando Javascript (NodeJS) ou Python que atenda os seguintes requisitos:
+
+Uma rota /hello do tipo GET que retorne a mensagem "World";
+Uma rota /soma do tipo POST que recebe um JSON com dois números inteiros e retorna a soma deles;
+Uma rota /starwars/films  do tipo GET que retorna o nome dos filmes da franquia Star Wars (para fazer essa etapa você precisa usar a API aberta https://swapi.dev/, 
+nela você pode fazer uma requisição para o endereço https://swapi.dev/api/films que retorna a informação de todos os filmes da franquia, incluindo o nome)
+ 
+
+Atenciosamente,
+
+Wagner (Driva | CTO)
